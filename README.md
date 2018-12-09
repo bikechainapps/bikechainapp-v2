@@ -69,6 +69,7 @@ Epic Scenario - [Admin]
 	◦	Beth directs Samantha to an empty stand.
 	◦	Beth goes over to the waiting list system and confirms Samantha’s arrival by clicking ‘Arrived’.
 	◦	She sees the system update with Samantha moving off the list and the next person on the Waiting list take over the first in line position.
+	◦	After she completes her appointments, send some text that asks for how the service went. If they love it, rate Bikechain on Google Maps. 
 
 
 
