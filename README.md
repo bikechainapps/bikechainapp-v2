@@ -22,6 +22,9 @@ We want to:
 	- Include features that minimize repetitive effort on the part of administrators adding and allow patrons to self-serve wherever possible.
 	- Give organizations the open to deploy the waitlist system on a local server and avoid use of cloud-based services as an added layer of privacy.
 
+Users
+Patron - A person who is a customer, especially a regular one.
+Admin - A person who controls the waitlist
 
 
 Use-Case Scenarios
@@ -100,3 +103,6 @@ Cancel Position - [Admin]
 	◦	Beth finds and cancels Elsie’s listing.
 	◦	She sees the system update where Elsie is moved to the No-Shows list from the Waiting list.
 
+Export - [Admin]
+
+    ◦    Beth exports the list of individuals for the year.
