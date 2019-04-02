@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+###  npm install -g serve
+###  serve -s build
+This app will serve on port 5000; 
+- Local:            http://localhost:5000
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
