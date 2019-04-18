@@ -1,7 +1,5 @@
 import express, { Request, Response } from "express";
 import path from "path";
-// database
-import DatabaseProvider from "./database";
 // controllers
 import { ApiController } from "./controllers";
 
@@ -9,9 +7,6 @@ const REACT_BUILD_PATH: string = path.join(
   process.cwd(),
   "waitlist-front/build"
 );
-
-const databaseProvider: DatabaseProvider = new DatabaseProvider();
-databaseProvider.initializeDatabase();
 
 const app: express.Application = express();
 // port defaults to 3000, port can be provided as a runtime argument

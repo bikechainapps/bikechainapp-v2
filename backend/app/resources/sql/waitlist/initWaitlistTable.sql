@@ -1,18 +1,5 @@
-
--- Create tables
-CREATE TABLE IF NOT EXISTS status (
-    status_id serial PRIMARY KEY,
-    status VARCHAR NOT NULL
-);
-
-CREATE TABLE IF NOT EXISTS contact (
-    contact_id serial PRIMARY KEY,
-    callout_name VARCHAR NOT NULL,
-    contact_num INTEGER
-);
-
 CREATE TABLE IF NOT EXISTS  waitlist (
-    contact_id serial REFERENCES contact(contact_id),
+    contact_id varchar REFERENCES contact(contact_id),
     status_id serial REFERENCES status(status_id),
     timestamp timestamp NOT NULL
 );
